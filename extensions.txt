@@ -1,0 +1,14 @@
+donjayamanne.githistory
+golang.Go
+hashicorp.terraform
+lacroixdavid1.vscode-format-context-menu
+mechatroner.rainbow-csv
+ms-azuretools.vscode-docker
+ms-python.python
+ms-python.vscode-pylance
+redhat.vscode-commons
+redhat.vscode-xml
+redhat.vscode-yaml
+rust-lang.rust
+tht13.html-preview-vscode
+tomoki1207.pdf

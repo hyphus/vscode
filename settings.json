@@ -1,0 +1,54 @@
+{
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.autoSave": "afterDelay",
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "files.watcherExclude": {
+        "/efs/*": true,
+        "/home/ubuntu/*": true
+    },
+    "formatContextMenu.closeAfterSave": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ],
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.showStartPage": false,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "terraform.indexing": {
+        "delay": 500,
+        "enabled": true,
+        "exclude": [
+            "**/.terraform/**/*",
+            ".terraform/**/*"
+        ],
+        "liveIndexing": false
+    },
+    "terraform.languageServer": {
+        "args": [
+            "serve"
+        ],
+        "external": true
+    },
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.newWindowDimensions": "maximized",
+    "window.restoreWindows": "none",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "xml.symbols.maxItemsComputed": 50000
+}
